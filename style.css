@@ -1,8 +1,10 @@
 img {
-    width: 250px;
+    width: 300px;
     height: 200px;
   }
 
 body {
-    text-align:center
+    text-align:center;
+    background-color: #0D0155;
+    color: #9D9EC0
 }
