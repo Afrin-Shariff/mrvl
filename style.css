@@ -3,8 +3,26 @@ img {
     height: 200px;
   }
 
-body {
-    text-align:center;
-    background-color: #0D0155;
-    color: #9D9EC0
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #7c9fce;
+    color: #060270;
+}
+
+
+.button {
+  flex: 1;
+  padding: 15px;
+  font-size: 18px;
+  background-color: #060270;
+  color: #7c9fce;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.button-container {
+    display: flex;
+    width: 100%;
 }
