@@ -22,7 +22,24 @@ img {
   transition: background 0.3s;
 }
 
+
 .button-container {
     display: flex;
     width: 100%;
+}
+
+.container {
+  position: relative;
+}
+
+.iron-mask {
+  width: 200px; /* Adjust as needed */
+  height: auto;
+  opacity: 0; /* Initially hidden */
+  animation: fadeIn 3s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
